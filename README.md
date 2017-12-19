@@ -4,7 +4,7 @@ A simple ray tracing program for rendering 3D scene written in C++.
 - [Usage](#usage)
 - [Dependencies](#dependencies)
 
-![Final Image](https://github.com/juniorxsound/Ray-Tracer/blob/master/resources/1.gif)
+![Final Image](https://github.com/juniorxsound/Ray-Tracer/blob/master/resources/2.png)
 
 
 ### Features:
