@@ -452,13 +452,13 @@ void RayTracer() {
             folderName += "/";
             string fileName = to_string(frameCounter);
             fileName += ".png";
-            write_matrix_to_png(colorR, colorG, colorB, colorA, "../renders/animations/" + folderName + fileName);
+            write_matrix_to_png(colorR, colorG, colorB, colorA, "../" + folderName + fileName);
             cout << "[Renderer] Image saved" << endl;
             frameCounter++;
         } else {
             string fileName = getDateAsString();
             fileName += ".png";
-            write_matrix_to_png(colorR, colorG, colorB, colorA, "../renders/frames/" + fileName);
+            write_matrix_to_png(colorR, colorG, colorB, colorA, "../" + fileName);
             cout << "[Renderer] Image " << fileName << " saved" << endl;
         }
 
